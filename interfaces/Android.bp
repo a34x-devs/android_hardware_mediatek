@@ -37,3 +37,18 @@ prebuilt_hidl_interfaces {
         "vendor.mediatek.hardware.mms@1.7::IMms"
     ]
 }
+
+prebuilt_hidl_interfaces {
+    name: "hidl_vendor_mediatek_hardware_aee_interface",
+    interfaces: [
+        "vendor.mediatek.hardware.aee@1.0::IAee",
+        "vendor.mediatek.hardware.aee@1.1::IAee",
+    ],
+}
+
+prebuilt_hidl_interfaces {
+    name: "hidl_vendor_mediatek_hardware_atci_interface",
+    interfaces: [
+        "vendor.mediatek.hardware.atci@1.0::IAtcid",
+    ],
+}
