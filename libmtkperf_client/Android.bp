@@ -21,6 +21,7 @@ cc_defaults {
 
 cc_library_shared {
     name: "libmtkperf_client_vendor",
+    installable: false,
     defaults: ["libmtkperf_client_defaults"],
     vendor: true,
 }
@@ -37,12 +38,14 @@ cc_library_shared {
 
 cc_library_shared {
     name: "libpowerhalwrap_vendor",
+    installable: false,
     defaults: ["libpowerhalwrap_defaults"],
     vendor: true,
 }
 
 cc_library_shared {
     name: "libperfctl_vendor",
+    installable: false,
     vendor: true,
     srcs: ["perfctl_vendor.c"],
     shared_libs: ["liblog"],

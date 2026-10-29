@@ -5,12 +5,14 @@
 
 cc_library_shared {
     name: "libaedv",
+    installable: false,
     vendor: true,
     srcs: ["aee.c"],
 }
 
 cc_library_shared {
     name: "libladder",
+    installable: false,
     vendor: true,
     srcs: ["libladder.cpp"],
 }
